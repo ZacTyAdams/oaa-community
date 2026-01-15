@@ -9,7 +9,7 @@ user and API keys.
 
 Example:
     ```
-    export OAA_TOKEN="xxxxxxx"
+    export VEZA_API_KEY="xxxxxxx"
     export VEZA_URL="https://myveza.vezacloud.com"
     ./sample-app.py
     ```

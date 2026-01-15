@@ -1,0 +1,11 @@
+services:
+  oaa-community-image:
+    build: 
+      dockerfile: Dockerfile
+    volumes:
+      - .:/local-volume-bridge
+    working_dir: /local-volume-bridge
+    command: sleep infinity
+    environment:
+      - VEZA_URL=${VEZA_URL}
+      - VEZA_API_KEY=${VEZA_API_KEY}
